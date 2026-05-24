@@ -37,7 +37,7 @@ class AddContact extends React.Component {
     this.setState({
       name: "",
       email: "",
-      phone: null,
+      phone: "",
     });
   };
 
