@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+  padding: 18px 32px;
+
+  background-color: #2563eb;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__branding {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header__icon {
+  font-size: 40px;
+  color: white;
+}
+
+.header__title {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.header__subtitle {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  margin-top: 4px;
+}
